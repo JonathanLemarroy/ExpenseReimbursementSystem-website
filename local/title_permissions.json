@@ -1,0 +1,5 @@
+{
+    "employee" : ["create_requests", "edit_requests", "delete_requests"],
+    "manager" : ["view_all_requests", "approve_deny_requests"],
+    "admin" : ["modify_titles"]
+}

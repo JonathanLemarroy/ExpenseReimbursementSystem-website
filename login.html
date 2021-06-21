@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheets/login.css">
+        <script src="scripts/login.js"></script>
+    </head>
+    <body>
+        <main>
+            <section id="loginBlock" class="loginBlock">
+                <div><h1 style="color: rgb(255, 255, 255);">Login</h1></div>
+                <form>
+                <div><input id="loginUserInput" class="inputField" type="text" placeholder="username or email"/></div>
+                <div><input id="loginPasswordInput" class="inputField" type="password" placeholder="password"/></div>
+                </form>
+                <div id="loginMessageBox" style="white-space: pre-wrap"></div>
+                <div><button id="loginBtn" class="submit">Login</button></div>
+                <div><button id="toggleCreateAccountBtn" class="submit">Create Account</button></div>
+            </section>
+            <section id="createAccountBlock" class="loginBlock" style="display: none;">
+                <div><h1 style="color: rgb(255, 255, 255);">Create Account</h1></div>
+                <form>
+                <div><input id="createFirstNameInput" class="inputField" type="text" placeholder="first name"/></div>
+                <div><input id="createLastNameInput" class="inputField" type="text" placeholder="last name"/></div>
+                <div><input id="createEmailInput" class="inputField" type="text" placeholder="email"/></div>
+                <div><input id="createUsernameInput" class="inputField" type="text" placeholder="username"/></div>
+                <div><input id="createPasswordInput" class="inputField" type="password" placeholder="password"/></div>
+                </form>
+                <div id="createAccountMessageBox" style="white-space: pre-wrap"></div>
+                <div><button id="createAccountBtn" class="submit">Create Account</button></div>
+                <div><button id="toggleLoginBtn" class="submit">Login</button></div>
+            </section>
+        </main>
+    </body>
+</html>

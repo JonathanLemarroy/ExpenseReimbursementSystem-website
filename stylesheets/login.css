@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(35,35,38);
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    min-width: 30em;
+}
+
+.loginBlock{
+    display: inline-block;
+    border-radius: 1.5em;
+    text-align: center;
+    background: rgb(51, 55, 61);
+    width: 20em;
+    margin-top: 15em;
+}
+
+.inputField{
+    border-radius: 1em;
+    border: none;
+    background-color:rgb(85, 90, 97);
+    text-indent: 1em;
+    color: white;
+    height: 2em;
+    margin: 1em;
+}
+
+.inputField::placeholder{
+    color: rgb(148, 148, 148);
+}
+
+.inputField:focus{
+    outline: none;
+}
+
+.submit{
+    border-radius: 1em;
+    border: none;
+    width: 8em;
+    height: 2em;
+    margin: 1em;
+    color: white;
+    background-color:rgb(44, 44, 47);
+}
+
+.submit:active{
+    background-color:rgb(155, 139, 215)
+}
+
+#loginMessageBox{
+    color: red
+}
+
+#createAccountMessageBox{
+    color: red
+}
